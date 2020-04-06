@@ -1,0 +1,16 @@
+{
+  "name": "rabbit-mq-rpc",
+  "version": "1.0.0",
+  "description": "Rabbit mq RPC example",
+  "main": "index.js",
+  "repository": "https://github.com/Maden-maxi/rabbit-mq-rpc",
+  "author": "Denys Dnishchenko",
+  "license": "MIT",
+  "dependencies": {
+    "amqplib": "^0.5.5"
+  },
+  "scripts": {
+    "start:receiver": "node receiver.js",
+    "send": "node sender.js"
+  }
+}
